@@ -1,0 +1,56 @@
+.container {
+    width: 100%;
+}
+
+.headerBackground {
+    min-height: 100vh; /* Full viewport height */
+    background-image: url('/bg.png'); /* Background image */
+    background-size: cover; /* Cover the container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating of the image */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+    padding: 20px; /* Add some padding */
+    width: 100%; /* Full width */
+}
+
+.content {
+    background-color: white; /* White background for content after the image */
+    width: 100%; /* Full width */
+    color: black; /* Default text color */
+    padding: 0px; /* Add some padding */
+}
+
+.nav {
+    position: absolute; /* Position the nav absolutely */
+    top: 20px; /* Distance from the top */
+    right: 107px; /* Distance from the right */
+    padding: 10px;
+}
+
+.nav a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    margin-left: 20px; /* Space between links */
+    font-weight: bold; /* Make nav links bold */
+}
+
+.nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.leftCorner {
+    position: absolute; /* Position the text absolutely */
+    top: 20px; /* Align with nav links */
+    left: 20px; /* Distance from the left */
+    font-weight: bold; /* Make text bold */
+}
+
+.leftCorner a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+}
+
+.leftCorner a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
